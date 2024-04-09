@@ -1,0 +1,17 @@
+li {
+    list-style-type: none;
+    margin-right: 10px;
+  }
+  .navigationLinks {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-around;
+    background-color: #3b3d40;
+    color: white;
+  }
+  .navigationLinks > li > a {
+    text-decoration: none;
+    color: white;
+  }
+  

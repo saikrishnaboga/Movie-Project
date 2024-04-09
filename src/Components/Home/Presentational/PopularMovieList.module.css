@@ -1,0 +1,22 @@
+.movieItems {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 10px;
+  }
+  .movieItems > a {
+    color: black;
+    text-decoration: none !important;
+  }
+  .movieCard {
+    width: 300px;
+  }
+  ul {
+    text-align: left;
+  }
+  ul > li > p {
+    width: 150px;
+  }
+  

@@ -1,0 +1,33 @@
+.movieCard {
+    display: flex;
+    justify-content: space-around;
+  }
+  .movieCard > img {
+    width: 50%;
+  }
+  .moviePoster > img {
+    width: 200px;
+  }
+  .movieDetails {
+    display: flex;
+  }
+  .texts {
+    padding-left: 10px;
+  }
+  .minsAndGenres {
+    display: flex;
+  }
+  .genres {
+    display: flex;
+    margin-left: 10px;
+  }
+  .genres > span {
+    margin-right: 10px;
+  }
+  .castList {
+    display: flex;
+    width: 1200px;
+    padding-left: 50px;
+    overflow-y: hidden;
+  }
+  
